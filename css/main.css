@@ -3,8 +3,8 @@
     --color-on-background: black;
     --color-background-hover: #eee;
     --color-on-background-hover: black;
-    --color-primary: #0066ff;
-    --color-on-primary: white;
+    --color-primary: #77dd77; /* Soft pastel green for light mode */
+    --color-on-primary: black; /* Dark text for good contrast against light green */
     --color-error: #de0000;
     --color-on-error: white;
 }
@@ -16,9 +16,9 @@ header.dark {
     --color-on-background: white;
     --color-background-hover: #27262c;
     --color-on-background-hover: white;
-    --color-primary: #283593;
-    --color-primary-disabled: #1f213c;
-    --color-on-primary: white;
+    --color-primary: #3b7a57; /* Pastel Xbox-toned green for dark mode */
+    --color-primary-disabled: #1b3322;
+    --color-on-primary: white; /* White text looks sharp here */
     --color-error: #de0000;
     --color-on-error: white;
 }
@@ -90,6 +90,11 @@ main > div {
 
 input[type="checkbox"] {
     height: 1.25rem;
+    width: 1.25rem;
+    cursor: pointer;
+    margin: 0;
+}
+
     width: 1.25rem;
     cursor: pointer;
     margin: 0;
