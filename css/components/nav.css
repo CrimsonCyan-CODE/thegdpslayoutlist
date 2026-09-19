@@ -1,8 +1,8 @@
 :root {
     --color-background: white;
     --color-on-background: black;
-    --color-primary: #0066ff;
-    --color-on-primary: white;
+    --color-primary: #8cffa5; /* Match the light-mode green theme */
+    --color-on-primary: black;
 }
 
 .nav {
